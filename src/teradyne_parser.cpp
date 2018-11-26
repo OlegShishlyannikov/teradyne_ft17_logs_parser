@@ -71,7 +71,6 @@ teradyne_parser::teradyne_parser( std::string & teradyne_raw_data )
   }
 
   this->teradyne_metadata = teradyne_metadata;
-  this->print_report( this->teradyne_metadata );
 }
 
 std::vector< std::tuple< int, std::string, std::pair< std::map< std::string, std::string >, std::map< int, std::map< std::string, std::string >>>, std::string, std::string >> * teradyne_parser::get_metadata()
