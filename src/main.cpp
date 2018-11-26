@@ -221,25 +221,25 @@ int main( int argc, char * argv[] )
 	}
   }
 
-  std::printf( "Table :\r\n" );
+  // std::printf( "Table :\r\n" );
 
-  for( unsigned int i = 0; i < table.size(); i ++ ) std::printf( "%s", table[ i ].c_str() );
+  // for( unsigned int i = 0; i < table.size(); i ++ ) std::printf( "%s", table[ i ].c_str() );
 
-  std::printf( "Before ETT table :\r\n" );
+  // std::printf( "Before ETT table :\r\n" );
 
-  for( unsigned int i = 0; i < before_ett_table.size(); i ++ ) std::printf( "%s", before_ett_table[ i ].c_str() );
+  // for( unsigned int i = 0; i < before_ett_table.size(); i ++ ) std::printf( "%s", before_ett_table[ i ].c_str() );
 
-  std::printf( "After ETT table :\r\n" );
+  // std::printf( "After ETT table :\r\n" );
 
-  for( unsigned int i = 0; i < after_ett_table.size(); i ++ ) std::printf( "%s", after_ett_table[ i ].c_str() );
+  // for( unsigned int i = 0; i < after_ett_table.size(); i ++ ) std::printf( "%s", after_ett_table[ i ].c_str() );
 
-  std::printf( "Plus table :\r\n" );
+  // std::printf( "Plus table :\r\n" );
 
-  for( unsigned int i = 0; i < plus_table.size(); i ++ ) std::printf( "%s", plus_table[ i ].c_str() );
+  // for( unsigned int i = 0; i < plus_table.size(); i ++ ) std::printf( "%s", plus_table[ i ].c_str() );
 
-  std::printf( "Minus table :\r\n" );
+  // std::printf( "Minus table :\r\n" );
 
-  for( unsigned int i = 0; i < minus_table.size(); i ++ ) std::printf( "%s", minus_table[ i ].c_str() );
+  // for( unsigned int i = 0; i < minus_table.size(); i ++ ) std::printf( "%s", minus_table[ i ].c_str() );
 
   std::ofstream output_stream( output_file_name.c_str() );
 
